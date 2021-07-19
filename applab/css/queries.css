@@ -1,0 +1,348 @@
+@media only screen and (max-width: 720px) {
+        header {
+            margin: 5% 5%;
+        }
+        .hero-content-text-editors-choice {
+            max-width: 200px;
+            font-size: 12px;
+        }
+        .hero {
+            height: calc(100vh - 40px - 10%);
+            padding: 0 5%;
+        }
+        .hero-content-text {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+        }
+        .hero-content-text h1 {
+            font-size: 40px;
+        }
+        .hero-content-img {
+            display: none;
+        }
+        .hero-content-text-buttons {
+            text-align: center;
+        }
+        header ul {
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #eaf0f7;
+            visibility: hidden;
+            transform: translate3d(100vw, 0, 0);
+        }
+        header ul li {
+            color: #242f51;
+        }
+        .mobile {
+            margin: 0px;
+        }
+        .hamburger {
+            display: block;
+        }
+
+        /* TRUSTED COMPANIES */
+
+        .trusted-companies {
+            padding-bottom: 50px;
+        }
+        .companies-logo {
+            flex-direction: column;
+        }
+        .companies-logo img {
+            width: 40%;
+            height: auto;
+            padding: 10px;
+        }
+        .trusted-companies p {
+            font-size: 20px;
+        }
+        
+        /* AWESOME APP */ 
+
+        .awesome-apps-features {
+            flex-direction: column;
+            padding: 0 5%;
+        }
+        .awesome-apps-features {
+            padding-bottom: 50px;
+        }
+        .awesome-block img {
+            width: 70px;
+            height: 70px;
+            margin-right: 15px;
+        }
+        .awesome-block {
+            padding-left: 10px;
+        }
+        .awesome-mob-text {
+            padding-left: 0px;
+        }
+        .awesome-mob-img {
+            display: none;
+        }
+        .awesome-text {
+            width: 100%;
+        }
+        .smart-icons {
+            flex-direction: column;
+            max-width: 100%;
+        }
+        .smart-block {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* SMART JACKPOTS */
+
+        .smartjackpots {
+            margin: 0;
+            padding: 0 5%;
+            flex-direction: column;
+            padding-bottom: 50px;
+        }
+        .smartjackpots .smartjackpots-section-left, .smartjackpots .smartjackpots-section-right {
+            width: 100%;
+        }
+        .left-text {
+            color: #242f51;
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            padding-left: 0%;
+
+        }
+        .left-text {
+            border-bottom: 2px solid #b9b9b8;
+            border-right: none;
+        }
+        .smartjackpots-section-right p {
+            width: 100%; 
+            padding: 0px !important;        
+        }
+        .smart-icons {
+            padding: 0 5%;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        
+
+        /* DESIGN */ 
+
+        .design {
+            flex-direction: column;
+            max-width: 100%;
+            padding: 0 5% 50px 5%;
+        }
+        .design-text h2 {
+            font-size: 30px;
+        }
+        .design-text button {
+            margin-right: 0px;
+        }
+        .design .design-img, .design .design-text {
+        width: 100%;
+        }
+        .design-img {
+            padding: 0px;
+        }
+        .design-text p {
+            width: 100%;
+            padding-bottom: 30px;
+        }
+        .design-text {
+            padding: 0px;
+        }
+
+        /* WHY SECTION */
+
+        .why {
+            padding: 0 5% 50px 5%
+        }
+        .why-section img {
+            padding-top: 30px;
+        }
+        .why-icons {
+            display: block;
+            padding-bottom: 0px;
+        }
+        .why-text h2 {
+            font-size: 30px;
+        }
+        .why-text p {
+            width: 100%;
+            padding: 0px;
+        }
+
+        /* ULTIMATE FEATURES */
+
+        .ultimate-features {
+            flex-direction: column;
+            padding: 0 5% 50px 5%;
+        }
+        .ultimate-text {
+            width: 100%;
+            padding: 0%;
+            text-align: center;
+        }
+        .ultimate-text p {
+            display: none;
+        }
+        .ultimate-text h2 {
+            font-size: 30px;
+        }
+        .ultimate-img {
+            display: none;
+        }
+        .ultimate-btn {
+            margin: 0 auto;
+        }
+        .ultimate-div p {
+            display: none;
+        }
+        .ultimate-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .ultimate-div {
+            width: 50%;
+            padding: 10px;
+        }
+
+        /*  PRICE */
+
+        .extra-charges {
+            padding-top: 50px;
+            padding: 0 5%;
+        }
+        .extra-charges-prices-monthly-items {
+            flex-direction: column;
+            align-items: center;
+        }
+        .extra-charges-prices-monthly-item {
+            margin-bottom: 40px;
+        }
+        .extra-charges-prices-monthly-item:first-child {
+            margin-right: 0px;
+        }
+
+        /* TESTIMONIALS */ 
+
+        .meet-client {
+            flex-direction: column ;
+            padding: 0 5%;
+        }
+        .meet-people-img {
+            width: 100%;
+        }
+        .client-testimonials {
+            width: 100%;
+            padding: 0 !important;
+        }
+        .client-info {
+            font-size: 14px;
+        }
+        .bigger-h2 {
+            font-size: 30px;
+        }
+
+        /* FAQ */ 
+
+        .faq {
+            padding: 0 5% 50px 5%;
+        }
+        .faq-tab {
+            width: 90%;
+        }
+
+        /* DOWNLOAD */
+        
+        .download-app {
+            flex-direction: column;
+            padding: 0 5% 50px 5%;
+        }
+        .download-h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+        /* .download-btn p {
+            text-align: justify;
+        } */
+        .download-btn img {
+            padding-right: 0px;
+            margin: 0 auto;
+        }
+        .download-btn {
+            text-align: center;
+        }
+        .download-img {
+            display: none;
+        }
+        .download-btn {
+        display: block;
+        width: 100%;
+        padding-left: 0%;
+        }
+
+        /* FOOTER */
+
+        footer img {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        footer p {
+            padding: 50px 25px;
+        }
+        .nav-footer {
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+        .nav-footer li {
+            padding-left: 0px;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+    }
+
+    @media only screen and (max-width: 960px) {
+
+        nav ul li a {
+            margin: 5px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        
+
+    }
+
+    @media only screen and (max-width: 1200px) {
+        header ul {
+            padding: 0;
+            font-size: 16px;
+        }
+        nav ul li a {
+            font-size: 14px;
+        }
+        .smartjackpots-section-right p {
+            width: 70%;
+            padding: 10% 0 0 3%;
+        }
+        .mobile {
+            margin-right: 0px;
+            padding: 10px 25px;
+        }
+    }
+
+

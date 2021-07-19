@@ -1,0 +1,743 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.ttf') format('ttf');
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #616368;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #242f51;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* HEADER - HERO */
+
+header {
+    margin: 50px 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav ul li button {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hamburger {
+    display: none;
+}
+.close-menu-icon {
+    display: none;
+}
+.mobile-menu-active .hamburger {
+    display: none;
+}
+.mobile-menu-active .close-menu-icon {
+    display:block;
+    z-index: 101;
+}
+.mobile-menu-active ul {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+    transition: .3s linear;
+    transform-style: preserve-3d;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0px 5%; */
+    background-image: url('../assets/img/hero-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: calc(100vh - 157px);
+}
+
+.hero-content-text {
+    max-width: 60%;
+}
+
+.hero-content-text-editors-choice {
+    position: relative;
+    background: #e2eaed;
+    max-width: 300px;
+    border-radius: 17px;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+.hero-content-text-editors-choice span {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    border-radius: 17px;
+    font-size: 20px;
+}
+
+.hero-content-text i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-content-img {
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.hero-p {
+    color: #616368;
+}
+
+.hero-content-text-buttons {
+    padding: 35px 0;
+}
+
+.watch-demo {
+    color: #2500f9;
+    background-color: transparent;
+    border-radius: 28px;
+    border: none;
+    margin-right: 35px;
+    padding: 15px 40px;
+}
+
+.try-free {
+    color: #fff;
+    background-color: #2500f9;
+    border-radius: 28px;
+    border: none;
+    margin-right: 35px;
+    padding: 15px 40px;
+}
+
+.try-free:hover {
+    background-color: #fff;
+    border-radius: 28px;
+    padding: 15px 40px;
+    color: #2500f9;
+    transition: 0.5s;
+}
+
+.watch-demo:hover {
+    background-color: #2500f9;
+    border-radius: 28px;
+    padding: 15px 40px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* SECTION 2 - TRUSTED COMPANIES */
+
+.trusted-companies {
+    padding-bottom: 199px;
+}
+
+.trusted-companies p {
+    text-align: center;
+    padding: 117px 0 45px 0;
+    color: #002c53;
+}
+
+.companies-logo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.companies-logo img {
+    width: 50%;
+    height: auto;
+    padding: 0 70px;
+}
+ 
+/* SECTION 3 - AWESOME APPS */
+
+.awesome-apps-features {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 163px;
+}
+
+.awesome-mob-img {
+    width: 50%;
+    text-align: center;
+}
+
+.awesome-mob-img {
+    max-width: 50%;
+}
+
+.padding-text-p {
+    padding: 30px 0 95px 0;
+}
+
+h2 {
+    color: #242f51;
+    font-size: 36px;
+}
+
+.awesome-text {
+    display: block;
+    width: 50%;
+}
+
+.awesome-block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.awesome-block img {
+    width: 90px;
+    height: 90px;
+    margin-right: 35px;
+}
+
+.awesome-text-width {
+    max-width: 250px;
+}
+
+.red {color: #f55767;}
+.blue {color: #2563ff;}
+.green {color: #40975f;}
+
+/* SECTION 4 - SMART JACKPOTS */
+
+.smartjackpots {
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 115px;
+}
+
+.smartjackpots .smartjackpots-section-left, .smartjackpots .smartjackpots-section-right {
+    width: 50%;
+}
+
+.smartjackpots-section-left {
+    text-align: left;
+}
+
+.smartjackpots-section-right {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.left-text {
+    color: #242f51;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 15%;
+}
+
+.left-text {
+    border-right: 2px solid #b9b9b8;
+}
+
+.smartjackpots-section-right p {
+    width: 70%;
+    padding: 15% 0 0 3%;
+}
+
+.smart-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.smart-block {
+    width: 25%;
+}
+
+.smart-block img {
+    width: 90px;
+    height: 90px;
+}
+
+.smart-block p {
+    padding: 5px 30px 0 0;
+}
+
+/* SECTION 5- DESIGN */
+
+.design .design-img, .design .design-text {
+    width: 50%;
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 73px;
+}
+
+.design-img {
+    padding-left: 10%;
+}
+
+hr{
+    height: 2px;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.design-text p {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.design-text {
+    padding: 50px 70px 0 70px;
+}
+
+/* SECTION 6 - WHY */
+
+.why {
+    text-align: center;
+    padding-top: 140px;
+}
+
+.why-text p {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.why-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+
+.why-section {
+    display: block;
+}
+
+.why-section img {
+    width: 90px;
+    height: 90px;
+}
+
+.why-section p {
+    padding: 0 30px;
+}
+
+/* SECTION 7 - ULTIMATE */
+
+.ultimate-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimate-text {
+    width: 50%;
+    padding: 100px 0px 174px 100px;
+}
+
+.ultimate-img {
+    width: 50%;
+}
+
+.ultimate-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.ultimate-icons img {
+    width: 90px;
+    height: 90px;
+}
+
+.ultimate-div {
+    padding: 50px 50px 50px 0;
+}
+
+.ultimate-btn {
+    display: block;
+    color: #fff;
+    background-color: #2500f9;
+    border-radius: 28px;
+    border: none;
+    margin-right: 35px;
+    margin-top: 55px;
+    padding: 15px 40px;
+}
+
+.ultimate-btn:hover {
+    background-color: #fff;
+    border-radius: 28px;
+    padding: 15px 40px;
+    color: #2500f9;
+    transition: 0.5s;
+}
+
+/* SECTION 8 - EXTRA CHARGES */
+
+.extra-charges {
+    padding-top: 170px;
+    padding-bottom: 106px;
+}
+
+.extra-charges-text {
+    text-align: center;
+}
+
+.extra-charges-text h2 {
+    padding-bottom: 45px;
+}
+
+.extra-charges-prices-pills button.active {
+    background: #2500f9;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+}
+
+.extra-charges-prices-pills button {
+    color: #898a8e;
+    border: none;
+    background-color: #fff;
+    padding: 15px 30px;
+}
+
+.extra-charges-prices-monthly-items {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.extra-charges-prices-monthly-item {
+    width: 320px;
+    max-width: 100%;
+}
+
+.extra-charges-prices-monthly-item:first-child {
+    margin-right: 20px;
+}
+
+.extra-charges-prices-monthly-item-top-section {
+    height: 120px;
+    padding: 65px;
+    background: #f4f7f9;
+    background-image: linear-gradient(#fff, #f4f7f9);
+}
+
+.extra-charges-prices-monthly-item-top-section-price span:first-child {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.extra-charges-prices-pills {
+    padding: 80px 0 40px 0;
+}
+
+.extra-charges-prices-monthly-item-bottom-section ul li {
+    list-style: none;
+    color: #a7aab1;
+    padding-top: 30px;
+}
+
+.trial {
+    margin: 0 auto;
+}
+
+.extra-charges-prices-monthly-item-bottom-section ul {
+    padding: 0px;
+}
+
+.extra-charges-prices-monthly-item {
+    box-shadow: 7px 15px 10px 5px #f5f6f8;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.second-div {
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+}
+
+.toggle-border {
+    margin: 0 auto;
+    width: 245px;
+    border: 1px solid #ebebeb;
+    border-radius: 28px;
+    padding: 5px;
+}
+
+/* SECTION 9 - TESTIMONIALS */
+
+.meet-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 194px;
+}
+
+.meet-people-img {
+    width: 50%;
+}
+
+.client-testimonials {
+    width: 50%;
+    display: block;
+    padding-right: 15%;
+}
+
+.client-testimonials img {
+    margin-right: 20px;
+}
+
+.client-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.client-detais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.client-info span {
+    display: block;
+}
+
+.meet-client-navigation {
+    min-width: 100px;
+}
+
+.meet-client-navigation a {
+    padding: 9px 11px;
+    border: 1px solid #eff3f8;
+    border-radius: 50%;
+    background: #eff3f8;
+    color: #2500f9;
+}
+
+.meet-client-navigation a i {
+    color: #2500f9;
+}
+
+.meet-client-navigation a:first-child {
+    background: none;
+}
+
+.meet-client-navigation a:first-child i {
+    color: #dee1e6;
+}
+
+.bigger-h2 {
+    font-size: 40px;
+    color: #242f51;
+}
+
+
+/* SECTION 10 - FAQ */
+
+.faq {
+    padding-bottom: 119px;
+}
+
+.faq p {
+    text-align: center;
+    padding-bottom: 67px;
+}
+
+.faq h2 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.faq-tab {
+    width: 65%;
+    margin: 0 auto;
+    background-color: #f5f7fa;
+    margin-bottom: 10px;
+}
+
+.question-content {
+    padding: 25px 25px 25px 50px;
+    position: relative;
+}
+.question-div {
+    position:relative
+}
+.question-div h4 {
+    padding-right: 57px;
+}
+.question-div button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.faq-tab.hidden p {
+    display: none;
+}
+
+.question-h {
+    font-size: 20px;
+}
+
+.question-text {
+    text-align: left !important;
+}
+
+/* SECTION 11 - DOWNLOAD */
+
+.download-app {
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn {
+    display: block;
+    width: 60%;
+    padding-left: 10%;
+    padding-bottom: 100px;
+}
+
+.download-btn img {
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+/* .download-btn p {
+    padding-bottom: 53px;
+} */
+
+.download-h2 {
+    font-size: 48px;
+    color: #242f51;
+    padding-top: 99px;
+    padding-bottom: 44px;
+}
+
+.download-img img {
+    height: 100%;
+    padding-top: 10%;
+    object-position: bottom;
+    object-fit: none;
+    width: 100%;
+}
+
+/* SECTION 12 - FOOTER */
+
+footer {
+    background-color: #09142e;
+    text-align: center;
+    display: block;
+}
+
+footer img {
+    padding: 120px 0 57px 0;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-footer li {
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 55px;
+}
+
+.nav-footer a {
+    color: #fff;
+}
+
+.icons-footer a {
+    padding-right: 22px;
+    font-size: 30px;
+}
+
+.icons-footer a:hover i {
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 14px;
+    padding-top: 95px;
+    padding-bottom: 120px;
+}
+
+
